@@ -19,21 +19,21 @@
 <br/>
 
 <p align="center">
-  <a href="https://aaawazi.vercel.app/">
+  <a href="https://awaz-the-agent.vercel.app/">
     <img src="https://img.shields.io/badge/🌐_Live_Demo-Click_Here-00D9FF?style=for-the-badge&logoColor=white&labelColor=9945FF" alt="Live Demo"/>
   </a>
-  <a href="https://github.com/KushAnchalia/Aaawaz/issues">
+  <a href="https://github.com/bishnu24ise-prog/Awaz-the-agent/issues">
     <img src="https://img.shields.io/badge/🐛_Report_Bug-GitHub-FF6B6B?style=for-the-badge&labelColor=000000" alt="Report Bug"/>
   </a>
-  <a href="https://github.com/KushAnchalia/Aaawaz/issues">
+  <a href="https://github.com/bishnu24ise-prog/Awaz-the-agent/issues">
     <img src="https://img.shields.io/badge/💡_Request_Feature-Suggest-4ECDC4?style=for-the-badge&labelColor=000000" alt="Request Feature"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/KushAnchalia/Aaawaz?style=social" alt="GitHub stars"/>
-  <img src="https://img.shields.io/github/forks/KushAnchalia/Aaawaz?style=social" alt="GitHub forks"/>
-  <img src="https://img.shields.io/github/watchers/KushAnchalia/Aaawaz?style=social" alt="GitHub watchers"/>
+  <img src="https://img.shields.io/github/stars/bishnu24ise-prog/Awaz-the-agent?style=social" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/bishnu24ise-prog/Awaz-the-agent?style=social" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/watchers/bishnu24ise-prog/Awaz-the-agent?style=social" alt="GitHub watchers"/>
 </p>
 
 </div>
@@ -298,7 +298,7 @@ export PATH="$HOME/.foundry/bin:$PATH"
 ## Clone
 
 ```bash
-git clone https://github.com/KushAnchalia/Aaawaz.git
+git clone https://github.com/bishnu24ise-prog/Awaz-the-agent.git
 cd Aaawaz
 ```
 
@@ -431,10 +431,10 @@ This section maps Aawaz directly to the judging criteria.
 
 | Requirement                                            | Points | Evidence                                                                                             | Status |
 | ------------------------------------------------------ | -----: | ---------------------------------------------------------------------------------------------------- | ------ |
-| Public GitHub repository                               |     25 | [GitHub Repository](https://github.com/KushAnchalia/Aaawaz)                                          | ✅ Done |
-| Proper README with live public page + contract address |     25 | [README](https://github.com/KushAnchalia/Aaawaz) / [Live App](https://aaawazi.vercel.app/)           | ✅ Done |
+| Public GitHub repository                               |     25 | [GitHub Repository](https://github.com/bishnu24ise-prog/Awaz-the-agent)                                          | ✅ Done |
+| Proper README with live public page + contract address |     25 | [README](https://github.com/bishnu24ise-prog/Awaz-the-agent) / [Live App](https://awaz-the-agent.vercel.app/)           | ✅ Done |
 | Smart contract deployed on Monad Testnet               |     25 | [Testnet Contract](https://testnet.monadscan.com/address/0x5Fcff1c6D4Cf3Cad6BbC0331b46964A18Fd5c1f2) | ✅ Done |
-| Project publicly hosted                                |     25 | [Live Deployment](https://aaawazi.vercel.app/)                                                       | ✅ Done |
+| Project publicly hosted                                |     25 | [Live Deployment](https://awaz-the-agent.vercel.app/)                                                       | ✅ Done |
 
 **Basic completed: `100 / 100` points**
 
@@ -628,7 +628,7 @@ RPC: https://rpc.monad.xyz
 
 Try Aawaz:
 
-### 🌐 [Launch Aawaz](https://aaawazi.vercel.app/)
+### 🌐 [Launch Aawaz](https://awaz-the-agent.vercel.app/)
 
 Watch the demo:
 
@@ -654,6 +654,6 @@ MIT
 
 Built for **Monad** 💜
 
-[🌐 Live Demo](https://aaawazi.vercel.app/) • [💻 GitHub](https://github.com/KushAnchalia/Aaawaz) • [🧪 Testnet Contract](https://testnet.monadscan.com/address/0x5Fcff1c6D4Cf3Cad6BbC0331b46964A18Fd5c1f2) • [🚀 Mainnet Contract](https://monadscan.com/address/0x8b1522537989f4A396b49aB056c55225cdE6c627)
+[🌐 Live Demo](https://awaz-the-agent.vercel.app/) • [💻 GitHub](https://github.com/bishnu24ise-prog/Awaz-the-agent) • [🧪 Testnet Contract](https://testnet.monadscan.com/address/0x5Fcff1c6D4Cf3Cad6BbC0331b46964A18Fd5c1f2) • [🚀 Mainnet Contract](https://monadscan.com/address/0x8b1522537989f4A396b49aB056c55225cdE6c627)
 
 </div>

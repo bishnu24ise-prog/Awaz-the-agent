@@ -14,8 +14,8 @@ This is an NFT-based AI Voice Agent Marketplace where:
 1. **Amitabh Bachchan records his voice** (5-15 minutes)
 2. **Voice NFT is minted** on Solana
 3. **User buys the NFT** for 1 SOL
-4. **User prompts**: "Say happy birthday Kush"
-5. **System generates audio** of Amitabh Bachchan saying "Happy birthday Kush"
+4. **User prompts**: "Say happy birthday Pixel Pirates Team"
+5. **System generates audio** of Amitabh Bachchan saying "Happy birthday Pixel Pirates Team"
 
 ## Setup Instructions
 
@@ -57,7 +57,7 @@ If you want to use XTTS, Bark, or OpenVoice instead:
 2. Click **Buy** on desired voice (e.g., Amitabh Bachchan)
 3. After purchase, click **Preview**
 4. In the modal, scroll to **Voice Generation** section
-5. Enter prompt: "Say happy birthday Kush"
+5. Enter prompt: "Say happy birthday Pixel Pirates Team"
 6. Click **Generate Voice**
 7. Audio plays with celebrity's voice!
 
@@ -85,7 +85,7 @@ Generates voice audio from text prompt.
 **Request:**
 ```json
 {
-  "prompt": "Say happy birthday Kush",
+  "prompt": "Say happy birthday Pixel Pirates Team",
   "wallet": "wallet_address",
   "voiceId": "amitabh_bachchan"
 }
@@ -96,7 +96,7 @@ Generates voice audio from text prompt.
 {
   "success": true,
   "audio": "data:audio/mpeg;base64,...",
-  "prompt": "Say happy birthday Kush",
+  "prompt": "Say happy birthday Pixel Pirates Team",
   "voiceId": "amitabh_bachchan"
 }
 ```

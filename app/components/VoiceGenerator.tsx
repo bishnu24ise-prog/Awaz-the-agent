@@ -109,7 +109,7 @@ export default function VoiceGenerator({ agent }: VoiceGeneratorProps) {
           <textarea
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            placeholder={`e.g., "Happy birthday Kush!" or "Welcome to my channel"`}
+            placeholder={`e.g., "Happy birthday Pixel Pirates Team!" or "Welcome to my channel"`}
             rows={3}
             style={{
               width: "100%",
@@ -165,7 +165,7 @@ export default function VoiceGenerator({ agent }: VoiceGeneratorProps) {
       <div style={{ marginTop: "1.5rem", padding: "1rem", backgroundColor: "#eff6ff", borderRadius: "8px", fontSize: "0.85rem", color: "#1e40af" }}>
         <strong>💡 Example prompts:</strong>
         <ul style={{ marginTop: "0.5rem", paddingLeft: "1.5rem" }}>
-          <li>"Happy birthday Kush!"</li>
+          <li>"Happy birthday Pixel Pirates Team!"</li>
           <li>"Welcome to my channel, subscribe for more"</li>
           <li>"Thank you for watching"</li>
         </ul>
