@@ -40,7 +40,7 @@ export default function MasterRouter({ initialCommand, onBack }: MasterRouterPro
   const [messages, setMessages] = useState<{ role: "user" | "system"; text: string; intent?: string }[]>([
     {
       role: "system",
-      text: "Geet Autonomous Operating System initialized. Voice & natural language execution is ready on Monad Testnet.",
+      text: "Awaz Autonomous Operating System initialized. Voice & natural language execution is ready on Monad Testnet.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -256,7 +256,7 @@ export default function MasterRouter({ initialCommand, onBack }: MasterRouterPro
           ...prev,
           {
             role: "system",
-            text: "Switching to full-duplex Geet Live Studio...",
+            text: "Switching to full-duplex Awaz Live Studio...",
             intent: "FULL_DUPLEX_AUDIO",
           },
         ]);
@@ -336,7 +336,7 @@ export default function MasterRouter({ initialCommand, onBack }: MasterRouterPro
       description: "Vulnerability detection and opcode gas pruning",
     },
     conversational: {
-      label: "Geet Live Studio",
+      label: "Awaz Live Studio",
       badge: "Neural Core",
       category: "Voice Assistant",
       description: "Sub-200ms continuous voice dialogue with memory",
@@ -562,7 +562,7 @@ export default function MasterRouter({ initialCommand, onBack }: MasterRouterPro
                   { label: "Create ERC20 Token", cmd: "Create an ERC20 token named PirateMON" },
                   { label: "Hyperliquid Trading", cmd: "Open Hyperliquid Perps Desk" },
                   { label: "Monad Network Radar", cmd: "Check Monad network health" },
-                  { label: "Continuous Voice Studio", cmd: "Start Geet Live voice session" },
+                  { label: "Continuous Voice Studio", cmd: "Start Awaz Live voice session" },
                   { label: "Sign Language Hub", cmd: "Open Gesture Interface" },
                 ].map((item, idx) => (
                   <button
@@ -585,7 +585,7 @@ export default function MasterRouter({ initialCommand, onBack }: MasterRouterPro
                   <div className="terminal-dot red" />
                   <div className="terminal-dot yellow" />
                   <div className="terminal-dot green" />
-                  <span className="terminal-title font-mono">GEET://EXECUTION_STREAM • TESTNET_10143</span>
+                  <span className="terminal-title font-mono">AWAZ://EXECUTION_STREAM • TESTNET_10143</span>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
@@ -623,7 +623,7 @@ export default function MasterRouter({ initialCommand, onBack }: MasterRouterPro
                   <div key={i} className={`stream-entry ${m.role}`}>
                     <div className="entry-header">
                       <span className="entry-sender font-mono">
-                        {m.role === "system" ? "GEET NEURAL AGENT" : "USER TRANSACTION PROMPT"}
+                        {m.role === "system" ? "AWAZ NEURAL AGENT" : "USER TRANSACTION PROMPT"}
                       </span>
                       {m.intent && (
                         <span className="intent-badge font-mono">{m.intent}</span>

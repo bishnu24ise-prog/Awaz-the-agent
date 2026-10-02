@@ -57,12 +57,12 @@ export function GeetLogo({ size = "medium", onClick, showBadge = true }: GeetLog
         >
           <path
             d="M12 3V21M7 7V17M17 7V17M2 11V13M22 11V13"
-            stroke="url(#geet-grad)"
+            stroke="url(#awaz-grad)"
             strokeWidth="2.4"
             strokeLinecap="round"
           />
           <defs>
-            <linearGradient id="geet-grad" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+            <linearGradient id="awaz-grad" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
               <stop stopColor="#836EF9" />
               <stop offset="0.5" stopColor="#A78BFA" />
               <stop offset="1" stopColor="#38BDF8" />
@@ -83,7 +83,7 @@ export function GeetLogo({ size = "medium", onClick, showBadge = true }: GeetLog
               lineHeight: 1.1,
             }}
           >
-            Geet
+            Awaz
           </span>
           <span
             style={{
@@ -126,4 +126,5 @@ export function GeetLogo({ size = "medium", onClick, showBadge = true }: GeetLog
   );
 }
 
+export { GeetLogo as AwazLogo };
 export default GeetLogo;

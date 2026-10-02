@@ -145,9 +145,9 @@ export default function ConversationalAgent({ onStopSpeech, isLiveOnMount = fals
         // Simple heuristic bot for demo 
         // In production, send to LLM API
         const lower = text.toLowerCase();
-        if (lower.includes("hello") || lower.includes("hi")) return "Hello there! I am Geet, your Monad Super Agent.";
+        if (lower.includes("hello") || lower.includes("hi")) return "Hello there! I am Awaz, your Monad Super Agent.";
         if (lower.includes("price") || lower.includes("market")) return "The market is looking interesting today. Monad is moving fast!";
-        if (lower.includes("solana") || lower.includes("monad")) return "Monad is a high-performance EVM L1. Geet runs on Monad Testnet with MetaMask.";
+        if (lower.includes("solana") || lower.includes("monad")) return "Monad is a high-performance EVM L1. Awaz runs on Monad Testnet with MetaMask.";
         return "That's interesting! Tell me more about " + (text.split(" ").slice(-1)[0] || "it") + ".";
     };
 
@@ -235,7 +235,7 @@ export default function ConversationalAgent({ onStopSpeech, isLiveOnMount = fals
                 {isListening ? "✨" : "🎙️"}
             </div>
 
-            <h2 style={{ marginBottom: "10px", color: "white", fontSize: "2.5rem", fontWeight: "950", letterSpacing: "-1.5px", zIndex: 1 }}>Geet Live</h2>
+            <h2 style={{ marginBottom: "10px", color: "white", fontSize: "2.5rem", fontWeight: "950", letterSpacing: "-1.5px", zIndex: 1 }}>Awaz Live</h2>
             <p style={{ color: "#818cf8", marginBottom: "40px", fontWeight: "800", textTransform: "uppercase", letterSpacing: "2px", fontSize: "0.9rem", zIndex: 1 }}>
                 {status}
             </p>
@@ -289,7 +289,7 @@ export default function ConversationalAgent({ onStopSpeech, isLiveOnMount = fals
                         transition: "all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)"
                     }}
                 >
-                    {isListening ? "Stop Live Session" : "Start Geet Live"}
+                    {isListening ? "Stop Live Session" : "Start Awaz Live"}
                 </button>
 
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>

@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
             score,
             vulnerabilities,
             suggestions,
-            optimizedCode: code + "\n// Optimized by Geet Agent"
+            optimizedCode: code + "\n// Optimized by Awaz Agent"
         });
 
     } catch (error: any) {

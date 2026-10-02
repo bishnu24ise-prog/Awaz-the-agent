@@ -94,11 +94,11 @@ export default function LandingPage({ onExplore }: LandingPageProps) {
     {
       id: "conversational",
       category: "ai",
-      title: "Geet Live Studio",
+      title: "Awaz Live Studio",
       status: "Neural Core",
       tagline: "Continuous AI Assistant",
       desc: "Full-duplex conversational voice assistant with sub-200ms latency, context memory, and protocol-level documentation awareness.",
-      command: "Start Geet Live voice session",
+      command: "Start Awaz Live voice session",
       metrics: "< 180ms latency",
       iconSvg: (
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -136,7 +136,7 @@ export default function LandingPage({ onExplore }: LandingPageProps) {
     { label: "Synthesize Token", cmd: "Create an ERC20 token named PirateMON" },
     { label: "Hyperliquid Trading", cmd: "Open Hyperliquid Perps Desk" },
     { label: "Inspect RPC Health", cmd: "Check Monad network health" },
-    { label: "Launch Live Studio", cmd: "Start Geet Live voice session" },
+    { label: "Launch Live Studio", cmd: "Start Awaz Live voice session" },
   ];
 
   // Interactive Live Calldata Demos
@@ -242,7 +242,7 @@ export default function LandingPage({ onExplore }: LandingPageProps) {
           {/* Central Glass CTA Button matching 'Join Radika' in reference */}
           <div className="hero-cta-wrapper">
             <button className="btn-hero-glow" onClick={() => handleLaunch()}>
-              <span>Launch Geet Console</span>
+              <span>Launch Awaz Console</span>
               <span className="cta-arrow">→</span>
             </button>
           </div>
@@ -405,7 +405,7 @@ export default function LandingPage({ onExplore }: LandingPageProps) {
             <div className="section-eyebrow font-mono">SPECIALIZED FLEET</div>
             <h2 className="section-heading">Autonomous Execution Desks</h2>
             <p className="section-subtext">
-              Geet maps natural speech directly to verified smart contract payloads, executing across specialized agent modules.
+              Awaz maps natural speech directly to verified smart contract payloads, executing across specialized agent modules.
             </p>
 
             <div className="category-filter">
@@ -507,7 +507,7 @@ export default function LandingPage({ onExplore }: LandingPageProps) {
 
             <p className="team-copy">
               We are Team Pixel Pirates — an engineering crew building next-generation infrastructure for high-throughput blockchains.
-              Geet eliminates the cognitive barrier of hexadecimal addresses, complex CLIs, and cumbersome wallet popups
+              Awaz eliminates the cognitive barrier of hexadecimal addresses, complex CLIs, and cumbersome wallet popups
               by giving Monad a voice-native execution layer.
             </p>
 
@@ -552,9 +552,9 @@ export default function LandingPage({ onExplore }: LandingPageProps) {
         <section className="section cta-section">
           <div className="cta-box">
             <h2 className="cta-heading">Ready to experience voice-native Web3?</h2>
-            <p className="cta-copy">Launch Geet and start commanding your Monad portfolio in seconds.</p>
+            <p className="cta-copy">Launch Awaz and start commanding your Monad portfolio in seconds.</p>
             <button className="cta-btn" onClick={() => handleLaunch()}>
-              <span>Launch Geet Workspace</span>
+              <span>Launch Awaz Workspace</span>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <line x1="5" y1="12" x2="19" y2="12" />
                 <polyline points="12 5 19 12 12 19" />
@@ -604,7 +604,7 @@ export default function LandingPage({ onExplore }: LandingPageProps) {
         </div>
 
         <div className="footer-sub">
-          <span>© 2026 Geet Protocol • Engineered by Team Pixel Pirates.</span>
+          <span>© 2026 Awaz Protocol • Engineered by Team Pixel Pirates.</span>
           <span className="font-mono">Monad Blitz Hackathon • Production Deployment</span>
         </div>
       </footer>

@@ -40,8 +40,8 @@ export async function POST(req: NextRequest) {
     } else if (lower.includes("token") || lower.includes("erc20")) {
       contractName = "SimpleToken";
       body = `
-    string public name = "GeetToken";
-    string public symbol = "GEET";
+    string public name = "AwazToken";
+    string public symbol = "AWZ";
     uint8 public decimals = 18;
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;
@@ -66,7 +66,7 @@ export async function POST(req: NextRequest) {
     }
 
     function ping() external view returns (string memory) {
-        return "Geet on Monad Testnet";
+        return "Awaz on Monad Testnet";
     }
 
     receive() external payable {}`;

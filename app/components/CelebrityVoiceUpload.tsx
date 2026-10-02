@@ -370,7 +370,7 @@ export default function CelebrityVoiceUpload({ onStopSpeech }: { onStopSpeech?: 
         <strong style={{ display: "block", marginBottom: "10px", fontSize: "1rem", color: "white" }}>📝 AI Extraction Instructions:</strong>
         <ol style={{ paddingLeft: "1.5rem", display: "flex", flexDirection: "column", gap: "8px", fontWeight: "500" }}>
           <li>Provide a high-quality video or audio source.</li>
-          <li>Geet will isolate the primary voice patterns using the AI engine.</li>
+          <li>Awaz will isolate the primary voice patterns using the AI engine.</li>
           <li>Verify the extracted sample before minting your NFT.</li>
           <li>NFT holders will gain instant access to generate audio using this model.</li>
         </ol>

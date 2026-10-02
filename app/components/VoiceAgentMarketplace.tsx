@@ -26,7 +26,7 @@ export default function VoiceAgentMarketplace({ onSelectAgent, onStopSpeech }: {
   useEffect(() => {
     fetchAgents();
     // Load ownership from local storage
-    const storedOwnership = localStorage.getItem("geet_owned_agents") || localStorage.getItem("aawaz_owned_agents");
+    const storedOwnership = localStorage.getItem("awaz_owned_agents") || localStorage.getItem("geet_owned_agents") || localStorage.getItem("aawaz_owned_agents");
     if (storedOwnership) {
       try {
         setOwnedAgents(JSON.parse(storedOwnership));
@@ -78,7 +78,7 @@ export default function VoiceAgentMarketplace({ onSelectAgent, onStopSpeech }: {
 
         const newOwned = [...ownedAgents, agent.id];
         setOwnedAgents(newOwned);
-        localStorage.setItem("geet_owned_agents", JSON.stringify(newOwned));
+        localStorage.setItem("awaz_owned_agents", JSON.stringify(newOwned));
 
         alert(`✅ Purchased! Tx: ${hash.slice(0, 10)}...\n${getExplorerTxUrl(hash)}`);
       } catch (error: any) {

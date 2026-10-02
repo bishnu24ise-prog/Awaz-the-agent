@@ -2,11 +2,11 @@
 
 <!-- ANIMATED HEADER -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=AAWAZ&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=AWAZ&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" width="100%"/>
 
 <br/>
 
-# 🔊 **Aawaz** — The Monad Super Agent
+# 🔊 **Awaz** — The Monad Super Agent
 
 > **Voice-First Web3 Agent Platform built on the Monad blockchain**
 
@@ -40,13 +40,13 @@
 
 ---
 
-## ✨ What is Aawaz?
+## ✨ What is Awaz?
 
-**Aawaz** ("voice" in Hindi/Urdu) is a voice-first Web3 agent platform running on **Monad**.
+**Awaz** ("voice" in Hindi/Urdu) is a voice-first Web3 agent platform running on **Monad**.
 
 Instead of clicking through complex dashboards, users can **speak directly to the blockchain** — deploy smart contracts, interact with wallets, monitor Monad network health, execute trading workflows, and generate AI-powered audio.
 
-Aawaz ships as **"The Monad Super Agent"**: one conversational interface connecting multiple specialized Web3 and AI agents.
+Awaz ships as **"The Monad Super Agent"**: one conversational interface connecting multiple specialized Web3 and AI agents.
 
 ---
 
@@ -59,8 +59,8 @@ Aawaz ships as **"The Monad Super Agent"**: one conversational interface connect
 | 🧪 **Testnet Contract**                | [View on MonadScan](https://testnet.monadscan.com/address/0x5Fcff1c6D4Cf3Cad6BbC0331b46964A18Fd5c1f2)                        |
 | 🚀 **Mainnet Contract**                | [View on MonadScan](https://monadscan.com/address/0x8b1522537989f4A396b49aB056c55225cdE6c627)                                |
 | 🧾 **Sample / Deployment Transaction** | [View on MonadVision](https://testnet.monadvision.com/tx/0x039874ac8cfecc0cc7cdaf4128b592f1f51a5c4818e1d480936fad8c3e3604ea) |
-| 🎥 **Demo Video**                      | [Watch on X](https://x.com/AnchaliaKush/status/2088956493223936128?s=20)                                                     |
-| 📣 **Launch Post**                     | [View on X](https://x.com/AnchaliaKush/status/2088967736957566981?s=20)                                                      |
+| 🎥 **Demo Video**                      | Presented by **Team Pixel Pirates**                                                          |
+| 📣 **Launch Post**                     | Published by **Team Pixel Pirates**                                                         |
 
 ---
 
@@ -139,17 +139,17 @@ Aawaz ships as **"The Monad Super Agent"**: one conversational interface connect
 
 # 📝 Smart Contract Deployment
 
-Aawaz has been deployed on **both Monad Testnet and Monad Mainnet**.
+Awaz has been deployed on **both Monad Testnet and Monad Mainnet**.
 
 ## 🧪 Monad Testnet
 
 ## 📝 Smart Contract Deployment
 
-AawazToken (`AAZ`) is deployed on **Monad Mainnet**.
+AwazToken (`AAZ`) is deployed on **Monad Mainnet**.
 
 | Field | Value |
 |---|---|
-| **Contract** | `AawazToken` |
+| **Contract** | `AwazToken` |
 | **Standard** | ERC-20 |
 | **Symbol** | `AAZ` |
 | **Decimals** | `18` |
@@ -181,11 +181,11 @@ Sample Txn :
 
 ## 🚀 Monad Mainnet
 
-AawazToken is also deployed on **Monad Mainnet**.
+AwazToken is also deployed on **Monad Mainnet**.
 
 | Field                | Value                                                                                                                    |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Contract**         | `AawazToken`                                                                                                             |
+| **Contract**         | `AwazToken`                                                                                                             |
 | **Symbol**           | `AAZ`                                                                                                                    |
 | **Network**          | Monad Mainnet                                                                                                            |
 | **Chain ID**         | `143`                                                                                                                    |
@@ -193,12 +193,12 @@ AawazToken is also deployed on **Monad Mainnet**.
 | **Transactions**     | [View Token Transactions](https://monadscan.com/token/0x8b1522537989f4A396b49aB056c55225cdE6c627#transactions)           |
 | **Status**           | ✅ Deployed on Mainnet                                                                                                    |
 
-> 🏆 **Bonus milestone:** Aawaz is not limited to the testnet. The project's token contract has also been deployed on **Monad Mainnet**.
+> 🏆 **Bonus milestone:** Awaz is not limited to the testnet. The project's token contract has also been deployed on **Monad Mainnet**.
 
 Source:
 
 ```text
-contracts/src/AawazToken.sol
+contracts/src/AwazToken.sol
 ```
 
 ---
@@ -213,7 +213,7 @@ cd contracts
 export PATH="$HOME/.foundry/bin:$PATH"
 export PRIVATE_KEY=0xYOUR_PRIVATE_KEY
 
-forge create src/AawazToken.sol:AawazToken \
+forge create src/AwazToken.sol:AwazToken \
   --rpc-url https://testnet-rpc.monad.xyz \
   --private-key $PRIVATE_KEY \
   --constructor-args 1000000000000000000000000
@@ -235,7 +235,7 @@ cd contracts
 export PATH="$HOME/.foundry/bin:$PATH"
 export PRIVATE_KEY=0xYOUR_PRIVATE_KEY
 
-forge create src/AawazToken.sol:AawazToken \
+forge create src/AwazToken.sol:AwazToken \
   --rpc-url https://rpc.monad.xyz \
   --private-key $PRIVATE_KEY \
   --constructor-args 1000000000000000000000000
@@ -248,7 +248,7 @@ forge create src/AawazToken.sol:AawazToken \
 Automated verification uses BlockVision's **Sourcify** endpoint.
 
 ```bash
-forge verify-contract <ADDR> src/AawazToken.sol:AawazToken \
+forge verify-contract <ADDR> src/AwazToken.sol:AwazToken \
   --chain 10143 \
   --rpc-url https://testnet-rpc.monad.xyz \
   --verifier sourcify \
@@ -299,7 +299,7 @@ export PATH="$HOME/.foundry/bin:$PATH"
 
 ```bash
 git clone https://github.com/bishnu24ise-prog/Awaz-the-agent.git
-cd Aaawaz
+cd Awaz-the-agent
 ```
 
 ## Install
@@ -414,7 +414,7 @@ app/
 
 contracts/
   src/
-    AawazToken.sol
+    AwazToken.sol
 
   foundry.toml
 
@@ -425,7 +425,7 @@ contracts/
 
 # 🏆 Hackathon / Judging Evidence
 
-This section maps Aawaz directly to the judging criteria.
+This section maps Awaz directly to the judging criteria.
 
 ## Basic — 100 Points
 
@@ -463,8 +463,8 @@ This section maps Aawaz directly to the judging criteria.
 
 | Requirement                                             | Points | Evidence                                                                  | Status    |
 | ------------------------------------------------------- | -----: | ------------------------------------------------------------------------- | --------- |
-| X / LinkedIn post tagging Monad accounts                |     25 | [Launch Post](https://x.com/AnchaliaKush/status/2088967736957566981?s=20) | ✅ Done    |
-| 30+ second demo video posted                            |     25 | [Demo Video](https://x.com/AnchaliaKush/status/2088956493223936128?s=20)  | ✅ Done    |
+| X / LinkedIn post tagging Monad accounts                |     25 | Published by **Team Pixel Pirates**                                       | ✅ Done    |
+| 30+ second demo video posted                            |     25 | Presented by **Team Pixel Pirates**                                       | ✅ Done    |
 | 5K+ views OR 25+ waitlist signups OR 10+ external users |     25 | Current reported views: **254**                                           | ⏳ Not Yet |
 | 10K+ views                                              |     50 | Current reported views: **254**                                           | ⏳ Not Yet |
 
@@ -486,7 +486,7 @@ This section maps Aawaz directly to the judging criteria.
 
 Web3 products often require users to understand wallets, RPCs, explorers, contract interfaces, transaction parameters, and multiple dashboards.
 
-**Aawaz replaces much of this complexity with conversation.**
+**Awaz replaces much of this complexity with conversation.**
 
 Instead of:
 
@@ -502,7 +502,7 @@ A user can interact naturally:
 
 > **"Open a perpetual position."**
 
-This makes Aawaz particularly useful for:
+This makes Awaz particularly useful for:
 
 * New Web3 users
 * Monad ecosystem users
@@ -516,11 +516,11 @@ This makes Aawaz particularly useful for:
 
 # 💰 Revenue Potential
 
-Aawaz can evolve into a monetizable **Web3 agent layer for Monad**.
+Awaz can evolve into a monetizable **Web3 agent layer for Monad**.
 
 Potential revenue models include:
 
-### 1. Aawaz Pro
+### 1. Awaz Pro
 
 Subscription tier for:
 
@@ -537,7 +537,7 @@ Small platform fees for advanced automated on-chain workflows.
 
 ### 3. Developer API
 
-Provide Aawaz's voice-to-Web3 agent infrastructure as an API/SDK for other Monad applications.
+Provide Awaz's voice-to-Web3 agent infrastructure as an API/SDK for other Monad applications.
 
 ### 4. Enterprise Agent Infrastructure
 
@@ -555,11 +555,11 @@ Premium voice generation and personalized AI audio experiences.
 
 ---
 
-# 🌟 What Makes Aawaz Different?
+# 🌟 What Makes Awaz Different?
 
 Most Web3 assistants **explain blockchain**.
 
-**Aawaz is designed to act on it.**
+**Awaz is designed to act on it.**
 
 The core idea is:
 
@@ -588,7 +588,7 @@ A single interface can bring together:
 * 🔊 AI-generated audio
 * ⛓️ Monad Testnet + Mainnet
 
-That turns Aawaz from a chatbot into a **voice-first execution layer for Web3**.
+That turns Awaz from a chatbot into a **voice-first execution layer for Web3**.
 
 ---
 
@@ -626,17 +626,23 @@ RPC: https://rpc.monad.xyz
 
 # 🎬 Demo
 
-Try Aawaz:
+Try Awaz:
 
-### 🌐 [Launch Aawaz](https://awaz-the-agent.vercel.app/)
+### 🌐 [Launch Awaz](https://awaz-the-agent.vercel.app/)
 
-Watch the demo:
+### 🎥 Demo Video
 
-### 🎥 [Aawaz Demo Video](https://x.com/AnchaliaKush/status/2088956493223936128?s=20)
+Presented by **Team Pixel Pirates**.
 
-View the launch post:
+### 📣 Launch Updates
 
-### 📣 [Aawaz on X](https://x.com/AnchaliaKush/status/2088967736957566981?s=20)
+Published by **Team Pixel Pirates**.
+
+---
+
+# 👥 Team
+
+Awaz is built and engineered with pride by **Team Pixel Pirates**.
 
 ---
 
@@ -648,11 +654,11 @@ MIT
 
 <div align="center">
 
-## 🔊 AAWAZ
+## 🔊 AWAZ
 
 ### **Speak. Execute. On-Chain.**
 
-Built for **Monad** 💜
+Built for **Monad** 💜 by **Team Pixel Pirates**
 
 [🌐 Live Demo](https://awaz-the-agent.vercel.app/) • [💻 GitHub](https://github.com/bishnu24ise-prog/Awaz-the-agent) • [🧪 Testnet Contract](https://testnet.monadscan.com/address/0x5Fcff1c6D4Cf3Cad6BbC0331b46964A18Fd5c1f2) • [🚀 Mainnet Contract](https://monadscan.com/address/0x8b1522537989f4A396b49aB056c55225cdE6c627)
 

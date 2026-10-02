@@ -24,7 +24,7 @@ export interface ParsedIntent {
 }
 
 // System prompt for intent parsing
-const SYSTEM_PROMPT = `You are the Link-First Buy Execution Router for Geet on Monad Testnet.
+const SYSTEM_PROMPT = `You are the Link-First Buy Execution Router for Awaz on Monad Testnet.
 Your responsibility is to ensure that NO buy action is attempted unless an exchange is linked.
 
 Allowed actions:

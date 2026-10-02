@@ -2,7 +2,7 @@ import Providers from "../providers";
 import "./globals.css";
 
 export const metadata = {
-  title: "Geet — The Monad Super Agent",
+  title: "Awaz — The Monad Super Agent",
   description: "Voice-controlled Web3 agent for Monad Testnet (MetaMask)",
 };
 
