@@ -54,8 +54,8 @@ Aawaz ships as **"The Monad Super Agent"**: one conversational interface connect
 
 | Resource                               | Link                                                                                                                         |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| 🌐 **Live App**                        | [aaawazi.vercel.app](https://aaawazi.vercel.app/)                                                                            |
-| 💻 **GitHub**                          | [KushAnchalia/Aaawaz](https://github.com/KushAnchalia/Aaawaz)                                                                |
+| 🌐 **Live App**                        | [awaz-the-agent.vercel.app](https://awaz-the-agent.vercel.app/)                                                                            |
+| 💻 **GitHub**                          | [bishnu24ise-prog/Awaz-the-agent](https://github.com/bishnu24ise-prog/Awaz-the-agent)                                                                |
 | 🧪 **Testnet Contract**                | [View on MonadScan](https://testnet.monadscan.com/address/0x5Fcff1c6D4Cf3Cad6BbC0331b46964A18Fd5c1f2)                        |
 | 🚀 **Mainnet Contract**                | [View on MonadScan](https://monadscan.com/address/0x8b1522537989f4A396b49aB056c55225cdE6c627)                                |
 | 🧾 **Sample / Deployment Transaction** | [View on MonadVision](https://testnet.monadvision.com/tx/0x039874ac8cfecc0cc7cdaf4128b592f1f51a5c4818e1d480936fad8c3e3604ea) |
